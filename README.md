@@ -1,16 +1,15 @@
 # HotbarPets
-HotbarPets is a [Slimefun4](https://github.com/TheBusyBiscuit/Slimefun4/) Addon.<br>
-You need to install Slimefun4 in order for this plugin to work.
+HotbarPets 是一个 [Slimefun4](https://github.com/TheBusyBiscuit/Slimefun4/) 附属。<br>
+你必须先安装Slimefun4才能让本插件正常运行。
 
-HotbarPets is a Slimefun4 Addon that is heavily inspired by the famous mod [InventoryPets](https://www.curseforge.com/minecraft/mc-mods/inventory-pets).
-It adds new items to Slimefun that act like "Pets".
-If you carry them in your Hotbar they can prevent you from taking certain types of damage, give you free items or Potion Effects.
-But only if you also carry their favourite food with you.
+HotbarPets 是一个 Slimefun4 附属。 本插件很大程度上受到著名模组 [InventoryPets](https://www.curseforge.com/minecraft/mc-mods/inventory-pets) 的启发。
+本插件向 Slimefun 添加了新的物品，这些物品就像 "宠物" 一样。
+如果你把它们放在你的快捷栏，它们可以防止你受到部分伤害，给你免费的物品或药水效果，前提是你必须带着它们最喜欢的食物。
 
-[Read more...](https://github.com/TheBusyBiscuit/Slimefun4/wiki/HotbarPets)
+[了解详情...](https://github.com/TheBusyBiscuit/Slimefun4/wiki/HotbarPets)
 
-## Download HotbarPets
-You can download HotbarPets right here: [Development Builds](https://thebusybiscuit.github.io/builds/TheBusyBiscuit/HotbarPets/master/)
+## 下载 HotbarPets
+你可以在这里下载 HotbarPets: [Development Builds](https://thebusybiscuit.github.io/builds/TheBusyBiscuit/HotbarPets/master/)
 
 <p align="center">
   <a href="https://thebusybiscuit.github.io/builds/TheBusyBiscuit/HotbarPets/master/">
@@ -19,13 +18,13 @@ You can download HotbarPets right here: [Development Builds](https://thebusybisc
 </p>
 
 ## Discord
-You can find Slimefun's community on Discord!
-Click the badge down below to join the server for suggestions/questions or other discussions about this plugin.
+你可以在 Discord 上找到 Slimefun 社区!
+点击下方加入服务器，提出建议、问题或参与其他有关本插件的讨论。
 <p align="center">
   <a href="https://discord.gg/fsD4Bkh">
     <img src="https://img.shields.io/discord/565557184348422174?color=7289DA&label=Discord&style=for-the-badge" alt="Discord Invite"/>
   </a>
 </p>
 
-## Open Source
-This Project is open-source and licensed under the [MIT License](https://github.com/TheBusyBiscuit/HotbarPets/blob/master/LICENSE)
+## 开源许可
+本项目以 [GPL-3.0 许可](https://github.com/TheBusyBiscuit/HotbarPets/blob/master/LICENSE) 开源
