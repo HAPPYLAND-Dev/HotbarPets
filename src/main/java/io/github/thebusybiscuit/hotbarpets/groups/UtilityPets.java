@@ -20,25 +20,25 @@ public final class UtilityPets implements PetGroup {
 
     @Override
     public String getName() {
-        return "&aUtility (Peaceful)";
+        return "&a实体 (和平)";
     }
 
     @Override
     public void load(HotbarPets plugin) {
         // @formatter:off
-        new BedPet(plugin.getCategory(), new SlimefunItemStack("HOTBAR_PET_BED", Material.RED_BED, "&fBed Pet", getName(), "&7Favourite Food: Wool", "", "&fRight-Click: &7Sleep"), new ItemStack(Material.WHITE_WOOL), new ItemStack[] {
+        new BedPet(plugin.getCategory(), new SlimefunItemStack("HOTBAR_PET_BED", Material.RED_BED, "&f床 &f宠物", getName(), "&7喜欢的食物: 原木", "", "&f右键: &7睡觉"), new ItemStack(Material.WHITE_WOOL), new ItemStack[] {
                 new ItemStack(Material.IRON_INGOT), new ItemStack(Material.RED_BED), new ItemStack(Material.IRON_INGOT),
                 new ItemStack(Material.WHITE_WOOL), new ItemStack(Material.DIAMOND), new ItemStack(Material.WHITE_WOOL),
                 new ItemStack(Material.OAK_PLANKS), SlimefunItems.GOLD_14K, new ItemStack(Material.OAK_PLANKS)
         }).register(plugin);
 
-        new EnderChestPet(plugin.getCategory(), new SlimefunItemStack("HOTBAR_PET_ENDER_CHEST", PetTexture.ENDER_CHEST_PET.getHash(), "&5Ender Chest Pet", getName(), "&7Favourite Food: Ender Pearls", "", "&fRight-Click: &7Open"), new ItemStack(Material.ENDER_PEARL), new ItemStack[] {
+        new EnderChestPet(plugin.getCategory(), new SlimefunItemStack("HOTBAR_PET_ENDER_CHEST", PetTexture.ENDER_CHEST_PET.getHash(), "&5末影箱 &f宠物", getName(), "&7喜欢的食物: 末影珍珠", "", "&f右键: &7打开末影箱"), new ItemStack(Material.ENDER_PEARL), new ItemStack[] {
                 new ItemStack(Material.OBSIDIAN), new ItemStack(Material.ENDER_EYE), new ItemStack(Material.OBSIDIAN),
                 new ItemStack(Material.ENDER_PEARL), new ItemStack(Material.EMERALD), new ItemStack(Material.ENDER_PEARL),
                 new ItemStack(Material.OBSIDIAN), SlimefunItems.GOLD_16K, new ItemStack(Material.OBSIDIAN)
         }).register(plugin);
 
-        new WorkbenchPet(plugin.getCategory(), new SlimefunItemStack("HOTBAR_PET_WORKBENCH", PetTexture.WORKBENCH_PET.getHash(), "&6Workbench Pet", getName(), "&7Favourite Food: Wooden Planks", "", "&fRight-Click: &7Open"), new ItemStack(Material.OAK_PLANKS), new ItemStack[] {
+        new WorkbenchPet(plugin.getCategory(), new SlimefunItemStack("HOTBAR_PET_WORKBENCH", PetTexture.WORKBENCH_PET.getHash(), "&6工作台 &f宠物", getName(), "&7喜欢的食物: 木板", "", "&f右键: &7打开工作台"), new ItemStack(Material.OAK_PLANKS), new ItemStack[] {
                 new ItemStack(Material.OAK_PLANKS), new ItemStack(Material.CRAFTING_TABLE), new ItemStack(Material.OAK_PLANKS),
                 new ItemStack(Material.OAK_PLANKS), new ItemStack(Material.IRON_INGOT), new ItemStack(Material.OAK_PLANKS),
                 new ItemStack(Material.OAK_PLANKS), SlimefunItems.GOLD_16K, new ItemStack(Material.OAK_PLANKS)

@@ -37,18 +37,18 @@ public class HotbarPets extends JavaPlugin implements Listener, SlimefunAddon {
         Config cfg = new Config(this);
 
         // Setting up bStats
-        new Metrics(this, 4859);
+        //new Metrics(this, 4859);
 
-        if (getDescription().getVersion().startsWith("DEV - ")) {
+        /*if (getDescription().getVersion().startsWith("DEV - ")) {
             Updater updater = new GitHubBuildsUpdater(this, getFile(), "TheBusyBiscuit/HotbarPets/master");
 
             // Only run the Updater if it has not been disabled
             if (cfg.getBoolean("options.auto-update")) {
                 updater.start();
             }
-        }
+        }*/
 
-        category = new Category(new NamespacedKey(this, "pets"), new CustomItem(PetTexture.CATEGORY.getAsItem(), "&dHotbar Pets", "", "&a> Click to open"));
+        category = new Category(new NamespacedKey(this, "pets"), new CustomItem(PetTexture.CATEGORY.getAsItem(), "&d背包宠物", "", "&a> 点击查看"));
 
         // Add all the Pets via their Group class
         new FarmAnimals(this);
@@ -59,7 +59,7 @@ public class HotbarPets extends JavaPlugin implements Listener, SlimefunAddon {
         new UtilityPets(this);
         new SpecialPets(this);
 
-        SlimefunPlugin.getLocalization().setDefaultMessage("hotbarpets.neglected-pet", "&9Your %pet% &9would have helped you if you did not neglect it by not feeding it :(");
+        SlimefunPlugin.getLocalization().setDefaultMessage("hotbarpets.neglected-pet", "&9你的 %pet% &9饿了 :(");
         SlimefunPlugin.getLocalization().save();
 
         // Registering the Listeners
