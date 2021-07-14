@@ -41,7 +41,7 @@ public class TNTListener implements Listener {
                 e.setCancelled(true);
             } else if (!SlimefunPlugin.getProtectionManager().hasPermission(attacker, e.getEntity().getLocation(), ProtectableAction.ATTACK_PLAYER)) {
                 e.setCancelled(true);
-                attacker.sendMessage(ChatColor.DARK_RED + "You cannot harm Players in here!");
+                attacker.sendMessage(ChatColor.DARK_RED + "你不能在这里伤害玩家!");
             }
         }
     }
