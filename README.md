@@ -9,11 +9,11 @@ HotbarPets 是一个 Slimefun4 附属。 本插件很大程度上受到著名模
 [了解详情...](https://github.com/TheBusyBiscuit/Slimefun4/wiki/HotbarPets)
 
 ## 下载 HotbarPets
-你可以在这里下载 HotbarPets: [Development Builds](https://thebusybiscuit.github.io/builds/TheBusyBiscuit/HotbarPets/master/)
+你可以在这里下载 HotbarPets: [点此下载](https://github.com/ybw0014/HotbarPets-CN/actions/workflows/maven.yml)
 
 <p align="center">
-  <a href="https://thebusybiscuit.github.io/builds/TheBusyBiscuit/HotbarPets/master/">
-    <img src="https://thebusybiscuit.github.io/builds/TheBusyBiscuit/HotbarPets/master/badge.svg" alt="Build Server"/>
+  <a href="https://github.com/ybw0014/HotbarPets-CN/actions/workflows/maven.yml">
+    <img src="https://github.com/ybw0014/HotbarPets-CN/actions/workflows/maven.yml/badge.svg" alt="Build Server"/>
   </a>
 </p>
 
