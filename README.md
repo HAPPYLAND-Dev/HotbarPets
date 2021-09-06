@@ -1,4 +1,5 @@
 # HotbarPets
+
 HotbarPets 是一个 [Slimefun4](https://github.com/TheBusyBiscuit/Slimefun4/) 附属。<br>
 你必须先安装Slimefun4才能让本插件正常运行。
 
