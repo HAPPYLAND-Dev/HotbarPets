@@ -10,11 +10,15 @@ HotbarPets 是一个 Slimefun4 附属。 本插件很大程度上受到著名模
 [了解详情...](https://github.com/TheBusyBiscuit/Slimefun4/wiki/HotbarPets)
 
 ## 下载 HotbarPets
-你可以在这里下载 HotbarPets: [点此下载](https://github.com/ybw0014/HotbarPets-CN/actions/workflows/maven.yml)
+你可以在这里下载 HotbarPets: [点此下载](https://github.com/ybw0014/HotbarPets-CN/actions/workflows/build.yml)
 
 <p align="center">
   <a href="https://github.com/ybw0014/HotbarPets-CN/actions/workflows/maven.yml">
-    <img src="https://github.com/ybw0014/HotbarPets-CN/actions/workflows/maven.yml/badge.svg" alt="Build Server"/>
+    <img src="https://github.com/ybw0014/HotbarPets-CN/actions/workflows/maven.yml/badge.svg" alt="Java CI"/>
+  </a>
+
+  <a href="https://github.com/ybw0014/HotbarPets-CN/actions/workflows/build.yml">
+    <img src="https://github.com/ybw0014/HotbarPets-CN/actions/workflows/build.yml/badge.svg" alt="Auto Build"/>
   </a>
 </p>
 
