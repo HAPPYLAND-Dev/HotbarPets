@@ -7,18 +7,16 @@ HotbarPets 是一个 Slimefun4 附属。 本插件很大程度上受到著名模
 本插件向 Slimefun 添加了新的物品，这些物品就像 "宠物" 一样。
 如果你把它们放在你的快捷栏，它们可以防止你受到部分伤害，给你免费的物品或药水效果，前提是你必须带着它们最喜欢的食物。
 
-[了解详情...](https://github.com/TheBusyBiscuit/Slimefun4/wiki/HotbarPets)
-
 ## 下载 HotbarPets
-你可以在这里下载 HotbarPets: [点此下载](https://github.com/ybw0014/HotbarPets-CN/actions/workflows/build.yml)
+你可以在这里下载 HotbarPets: [点此下载](https://builds.guizhanss.net/ybw0014/HotbarPets-CN/master)
 
 <p align="center">
   <a href="https://github.com/ybw0014/HotbarPets-CN/actions/workflows/maven.yml">
     <img src="https://github.com/ybw0014/HotbarPets-CN/actions/workflows/maven.yml/badge.svg" alt="Java CI"/>
   </a>
 
-  <a href="https://github.com/ybw0014/HotbarPets-CN/actions/workflows/build.yml">
-    <img src="https://github.com/ybw0014/HotbarPets-CN/actions/workflows/build.yml/badge.svg" alt="Auto Build"/>
+  <a href="https://builds.guizhanss.net/ybw0014/HotbarPets-CN/master">
+    <img src="https://builds.guizhanss.net/f/ybw0014/HotbarPets-CN/master/badge.svg" alt="Auto Build"/>
   </a>
 </p>
 
