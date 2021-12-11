@@ -19,7 +19,7 @@ public final class FarmAnimals implements PetGroup {
 
     @Override
     public String getName() {
-        return "&22动物 (和平)";
+        return "&2动物 (和平)";
     }
 
     @Override
