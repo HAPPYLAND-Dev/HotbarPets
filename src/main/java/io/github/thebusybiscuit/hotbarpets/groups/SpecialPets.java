@@ -39,7 +39,7 @@ public final class SpecialPets implements PetGroup {
                 SlimefunItems.GOLD_20K, SlimefunItems.GOLD_20K, SlimefunItems.GOLD_20K
         }).register(plugin);
 
-        new PatriotPet(plugin.getItemGroup(), new SlimefunItemStack("HOTBAR_PET_PATRIOT", PetTexture.PATRIOT_PET.getHash(), "&5爱国者 &f宠物", getName(), "&7喜欢的食物: 地狱疣", "", "&f获得抗性提升, 生命恢复, 力量, ", "&f和饱食"), new ItemStack(Material.NETHER_WART), new ItemStack[] {
+        new PatriotPet(plugin.getItemGroup(), new SlimefunItemStack("HOTBAR_PET_PATRIOT", PetTexture.PATRIOT_PET.getHash(), "&5爱国者 &f宠物", getName(), "&7喜欢的食物: 下界疣", "", "&f获得抗性提升, 生命恢复, 力量, ", "&f和饱食"), new ItemStack(Material.NETHER_WART), new ItemStack[] {
                 new ItemStack(Material.REDSTONE), SlimefunItems.MAGIC_LUMP_1, new ItemStack(Material.REDSTONE),
                 SlimefunItems.MAGIC_LUMP_1, SlimefunItems.RAW_CARBONADO, SlimefunItems.MAGIC_LUMP_1,
                 SlimefunItems.GOLD_4K, new ItemStack(Material.REDSTONE), SlimefunItems.GOLD_4K
