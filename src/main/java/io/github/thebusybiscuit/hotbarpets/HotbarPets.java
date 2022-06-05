@@ -23,7 +23,8 @@ import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
+
+import net.guizhanss.guizhanlib.updater.GuizhanBuildsUpdater;
 
 public class HotbarPets extends JavaPlugin implements Listener, SlimefunAddon {
 
@@ -36,8 +37,8 @@ public class HotbarPets extends JavaPlugin implements Listener, SlimefunAddon {
         // Setting up bStats
         new Metrics(this, 4859);
 
-        if (cfg.getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
-            new GitHubBuildsUpdater(this, getFile(), "ybw0014/HotbarPets/master").start();
+        if (cfg.getBoolean("options.auto-update") && getDescription().getVersion().startsWith("Build")) {
+            new GuizhanBuildsUpdater(this, getFile(), "ybw0014", "HotbarPets-CN", "master", false, "zh-CN").start();
         }
 
         itemGroup = new ItemGroup(new NamespacedKey(this, "pets"), new CustomItemStack(PetTexture.CATEGORY.getAsItem(), "&d背包宠物", "", "&a> 点击打开"));
@@ -70,7 +71,7 @@ public class HotbarPets extends JavaPlugin implements Listener, SlimefunAddon {
 
     @Override
     public String getBugTrackerURL() {
-        return "https://github.com/ybw0014/HotbarPets/issues";
+        return "https://github.com/SlimefunGuguProject/HotbarPets/issues";
     }
 
     @Override

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.thebusybiscuit</groupId>
     <artifactId>HotbarPets</artifactId>
-    <version>DEV-38-zh_CN</version>
+    <version>UNOFFICIAL</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -61,12 +61,17 @@
                 <version>3.2.4</version>
 
                 <configuration>
+                    <minimizeJar>true</minimizeJar>
 
                     <!-- Shade dependencies into the output jar -->
                     <relocations>
                         <relocation>
                             <pattern>org.bstats</pattern>
                             <shadedPattern>io.github.thebusybiscuit.hotbarpets.bstats</shadedPattern>
+                        </relocation>
+                        <relocation>
+                            <pattern>net.guizhanss.guizhanlib</pattern>
+                            <shadedPattern>io.github.thebusybiscuit.hotbarpets.guizhanlib</shadedPattern>
                         </relocation>
                     </relocations>
 
@@ -76,6 +81,7 @@
                             <artifact>*:*</artifact>
                             <excludes>
                                 <exclude>META-INF/*</exclude>
+                                <exclude>minecraft.*.json</exclude>
                             </excludes>
                         </filter>
                     </filters>
@@ -126,6 +132,13 @@
             <artifactId>jsr305</artifactId>
             <version>3.0.2</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>net.guizhanss</groupId>
+            <artifactId>GuizhanLib</artifactId>
+            <version>0.9.5</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>
