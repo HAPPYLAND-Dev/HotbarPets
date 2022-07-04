@@ -30,6 +30,8 @@ public class HotbarPets extends JavaPlugin implements Listener, SlimefunAddon {
 
     private ItemGroup itemGroup;
 
+    public static String prefix = "§8[§x§4§F§B§3§B§F宠物§8]";
+
     @Override
     public void onEnable() {
         Config cfg = new Config(this);
